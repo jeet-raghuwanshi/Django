@@ -3,7 +3,8 @@ from django.db import models
 
 
 
-# Create your models here.
+# Create your models here 
+# just creating a timestamp edit 12:36 4/15/2023
 
 class promotion(models.Model):
     description = models.CharField(max_length=255)
